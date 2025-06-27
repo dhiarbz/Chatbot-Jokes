@@ -1,0 +1,48 @@
+# === Python ===
+nlp/      # Virtual environment Python
+__pycache__/    # Cache Python
+*.pyc           # Bytecode Python
+*.pyo
+*.pyd
+.python-version
+
+# === Node.js/React ===
+node_modules/   # Dependency React
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store       # File sistem macOS
+
+# === Dataset & Model ===
+jokes_from_hf.csv        # Folder dataset (125MB)
+knowledge_base/ # File RAG (jika berisi data besar)
+hasil_jokes_hf/
+*.bin           # Model binary (jika ada)
+*.h5
+*.pth
+*.pt
+*.joblib
+
+# === Environment Files ===
+.env            # Environment variables
+.env.local
+.env.development
+.env.production
+
+# === IDE/Sistem ===
+.idea/          # File IDE (PyCharm, dll)
+.vscode/        # File VS Code
+*.swp           # File temporary editor
+*.swo
+~$*             # File temporary Office
+
+# === Backend Flask ===
+instance/       # Instance folder Flask
+*.db            # Database lokal
+*.sqlite
+
+# === Build Files ===
+build/          # Folder build React
+dist/           # Distribusi Python
+*.egg-info/
+node_modules
